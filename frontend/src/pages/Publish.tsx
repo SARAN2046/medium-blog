@@ -30,7 +30,6 @@ const Publish = () => {
                             Authorization: `Bearer ${localStorage.getItem("token")}`
                         }
                     });
-                    console.log(response)
                     navigate(`/blog/${response.data.id}`)
                 }} type="submit" className="mt-4 inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-green-700 rounded-lg focus:ring-4 focus:ring-green-200 dark:focus:ring-blue-900 hover:bg-blue-800">
                     Publish post

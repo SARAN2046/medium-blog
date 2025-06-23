@@ -23,7 +23,6 @@ const Auth = ({type}:{type:"signup" | "signin"}) => {
       localStorage.setItem("token",token)
       navigate("/blogs")
     }catch(e){
-      console.log(postInput)
       console.log("error is : ",e)}
   }
   return (

@@ -2,7 +2,7 @@ import type { BlogType } from "../hooks/hook";
 import Avatar from "./Avatar";
 
 const SingleBlog = ({blog}:{blog:BlogType}) => {
-  console.log(blog)
+
   return (
    <div>
      <div className="grid grid-cols-12 w-full px-10 pt-10 items-start">
